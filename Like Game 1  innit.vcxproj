@@ -19,8 +19,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="MeshLoader.cpp" />
     <ClCompile Include="Source\Application.cpp" />
     <ClCompile Include="Source\glad.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MeshLoader.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
